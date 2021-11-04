@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Registro } from 'src/app/models/registro.model';
+import { DataLocalService } from 'src/app/services/data-local.service';
 
 @Component({
   selector: 'app-historial',
@@ -7,6 +9,16 @@ import { Component } from '@angular/core';
 })
 export class HistorialPage {
 
-  constructor() {}
+  constructor( public dataLocal: DataLocalService ) {}
+
+  sendEmail() {
+    console.log('Enviando email');
+
+  }
+
+  openRegister(registro: Registro) {
+    console.log('Detalle registro:',registro);
+    this.dataLocal.openRegister(registro)
+  }
 
 }

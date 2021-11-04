@@ -8,8 +8,9 @@ export class Registro {
   public created: Date;
 
   constructor( format: string, text: string ) {
+
     this.format = format;
-    this.icon = text;
+    this.text = text;
 
     this.created = new Date();
 
@@ -17,7 +18,7 @@ export class Registro {
   }
 
   private defineType() {
-    const initText = this.text.substring(0,4);
+    const initText = this.text?.substring(0,4);
 
     switch (initText) {
       case 'http':

@@ -3,6 +3,7 @@ import { BarcodeScanner } from '@ionic-native/barcode-scanner/ngx';
 
 import SwiperCore from 'swiper';
 import { IonicSwiper } from '@ionic/angular';
+import { DataLocalService } from 'src/app/services/data-local.service';
 
 SwiperCore.use([IonicSwiper]);
 @Component({
@@ -14,19 +15,28 @@ SwiperCore.use([IonicSwiper]);
 export class ScanPage {
 
   constructor(
-    private barcodeScanner: BarcodeScanner
+    private barcodeScanner: BarcodeScanner,
+    private dataLocal: DataLocalService,
   ) {}
 
   ionViewWillEnter() {
     this.scan();
+    // this.open()
   }
 
   scan() {
     this.barcodeScanner.scan().then(barcodeData => {
-      console.log('Barcode data', barcodeData);
+      if ( !barcodeData.cancelled ) {
+        this.dataLocal.saveRegister( barcodeData.format, barcodeData.text)
+      }
+
      }).catch(err => {
-         console.log('Error', err);
+         console.error(err);
+
+        //  prueba para desarrollo
+         this.dataLocal.saveRegister( 'QRCode', 'https://www.linkedin.com/in/carolina-cespedes-ortiz/')
      });
   }
+
 
 }

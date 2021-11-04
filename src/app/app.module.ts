@@ -10,6 +10,9 @@ import { AppComponent } from './app.component';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner/ngx';
 import { SwiperModule } from 'swiper/angular';
 
+import { IonicStorageModule } from '@ionic/storage-angular';
+import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -17,9 +20,11 @@ import { SwiperModule } from 'swiper/angular';
     SwiperModule,
     BrowserModule,
     IonicModule.forRoot(),
+    IonicStorageModule.forRoot(),
     AppRoutingModule
   ],
   providers: [
+    InAppBrowser,
     BarcodeScanner,
     {
       provide: RouteReuseStrategy,
