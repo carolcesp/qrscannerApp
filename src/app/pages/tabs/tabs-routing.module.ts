@@ -9,22 +9,22 @@ const routes: Routes = [
     children: [
       {
         path: 'scan',
-        loadChildren: () => import('../scan/scan.module').then(m => m.ScanPageModule)
+        loadChildren: () => import('../tab1-scan/scan.module').then(m => m.ScanPageModule)
       },
       {
         path: 'historial',
-        loadChildren: () => import('../historial/historial.module').then(m => m.HistorialPageModule)
+        loadChildren: () => import('../tab2-historial/historial.module').then(m => m.HistorialPageModule)
       },
       {
         path: '',
-        redirectTo: '/tabs/scan',
+        redirectTo: '/tabs/tab1-scan',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/scan',
+    redirectTo: '/tabs/tab1-scan',
     pathMatch: 'full'
   }
 ];
