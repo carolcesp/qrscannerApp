@@ -2,17 +2,17 @@ import { IonicModule } from '@ionic/angular';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { Tab1Page } from './tab1.page';
+import { ScanPage } from './scan.page';
 
-import { Tab1PageRoutingModule } from './tab1-routing.module';
+import { ScanPageRoutingModule } from './scan-routing.module';
 
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
-    Tab1PageRoutingModule
+    ScanPageRoutingModule
   ],
-  declarations: [Tab1Page]
+  declarations: [ScanPage]
 })
-export class Tab1PageModule {}
+export class ScanPageModule {}

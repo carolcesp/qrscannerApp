@@ -8,14 +8,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { BarcodeScanner } from '@ionic-native/barcode-scanner/ngx';
+import { SwiperModule } from 'swiper/angular';
 
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
   imports: [
+    SwiperModule,
     BrowserModule,
     IonicModule.forRoot(),
-    AppRoutingModule],
+    AppRoutingModule
+  ],
   providers: [
     BarcodeScanner,
     {

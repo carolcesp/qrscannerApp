@@ -6,17 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		C4ECBA5927327C92002FB237 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ECBA5827327C92002FB237 /* Tests_iOS.swift */; };
-		C4ECBA6427327C92002FB237 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ECBA6327327C92002FB237 /* Tests_macOS.swift */; };
-		C4ECBA6627327C92002FB237 /* QRScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ECBA3D27327C87002FB237 /* QRScannerApp.swift */; };
-		C4ECBA6727327C92002FB237 /* QRScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ECBA3D27327C87002FB237 /* QRScannerApp.swift */; };
-		C4ECBA6827327C92002FB237 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ECBA3E27327C87002FB237 /* ContentView.swift */; };
-		C4ECBA6927327C92002FB237 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ECBA3E27327C87002FB237 /* ContentView.swift */; };
-		C4ECBA6A27327C92002FB237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4ECBA3F27327C91002FB237 /* Assets.xcassets */; };
-		C4ECBA6B27327C92002FB237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4ECBA3F27327C91002FB237 /* Assets.xcassets */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		C4ECBA5527327C92002FB237 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -35,20 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C4ECBA3D27327C87002FB237 /* QRScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerApp.swift; sourceTree = "<group>"; };
-		C4ECBA3E27327C87002FB237 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C4ECBA3F27327C91002FB237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C4ECBA4427327C91002FB237 /* QRScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4ECBA4727327C91002FB237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4ECBA4C27327C91002FB237 /* QRScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4ECBA4E27327C91002FB237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4ECBA4F27327C91002FB237 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		C4ECBA5427327C92002FB237 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4ECBA5827327C92002FB237 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		C4ECBA5A27327C92002FB237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4ECBA5F27327C92002FB237 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4ECBA6327327C92002FB237 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		C4ECBA6527327C92002FB237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4ECBA4427327C91002FB237 /* QRScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = QRScanner.app; path = "/Users/carolcespedes/projects/Curso-ionic/qrscanner/QRScanner/build/Debug-iphoneos/QRScanner.app"; sourceTree = "<absolute>"; };
+		C4ECBA4C27327C91002FB237 /* QRScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = QRScanner.app; path = "/Users/carolcespedes/projects/Curso-ionic/qrscanner/QRScanner/build/Debug/QRScanner.app"; sourceTree = "<absolute>"; };
+		C4ECBA8627328159002FB237 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Tests iOS.xctest"; path = "/Users/carolcespedes/projects/Curso-ionic/qrscanner/QRScanner/build/Debug-iphoneos/Tests iOS.xctest"; sourceTree = "<absolute>"; };
+		C4ECBA8727328159002FB237 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Tests macOS.xctest"; path = "/Users/carolcespedes/projects/Curso-ionic/qrscanner/QRScanner/build/Debug/Tests macOS.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,69 +65,7 @@
 		C4ECBA3727327C86002FB237 = {
 			isa = PBXGroup;
 			children = (
-				C4ECBA3C27327C87002FB237 /* Shared */,
-				C4ECBA4627327C91002FB237 /* iOS */,
-				C4ECBA4D27327C91002FB237 /* macOS */,
-				C4ECBA5727327C92002FB237 /* Tests iOS */,
-				C4ECBA6227327C92002FB237 /* Tests macOS */,
-				C4ECBA4527327C91002FB237 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		C4ECBA3C27327C87002FB237 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				C4ECBA3D27327C87002FB237 /* QRScannerApp.swift */,
-				C4ECBA3E27327C87002FB237 /* ContentView.swift */,
-				C4ECBA3F27327C91002FB237 /* Assets.xcassets */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		C4ECBA4527327C91002FB237 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C4ECBA4427327C91002FB237 /* QRScanner.app */,
-				C4ECBA4C27327C91002FB237 /* QRScanner.app */,
-				C4ECBA5427327C92002FB237 /* Tests iOS.xctest */,
-				C4ECBA5F27327C92002FB237 /* Tests macOS.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C4ECBA4627327C91002FB237 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				C4ECBA4727327C91002FB237 /* Info.plist */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		C4ECBA4D27327C91002FB237 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				C4ECBA4E27327C91002FB237 /* Info.plist */,
-				C4ECBA4F27327C91002FB237 /* macOS.entitlements */,
-			);
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		C4ECBA5727327C92002FB237 /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				C4ECBA5827327C92002FB237 /* Tests_iOS.swift */,
-				C4ECBA5A27327C92002FB237 /* Info.plist */,
-			);
-			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		C4ECBA6227327C92002FB237 /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				C4ECBA6327327C92002FB237 /* Tests_macOS.swift */,
-				C4ECBA6527327C92002FB237 /* Info.plist */,
-			);
-			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +120,7 @@
 			);
 			name = "Tests iOS";
 			productName = "Tests iOS";
-			productReference = C4ECBA5427327C92002FB237 /* Tests iOS.xctest */;
+			productReference = C4ECBA8627328159002FB237 /* Tests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		C4ECBA5E27327C92002FB237 /* Tests macOS */ = {
@@ -221,7 +138,7 @@
 			);
 			name = "Tests macOS";
 			productName = "Tests macOS";
-			productReference = C4ECBA5F27327C92002FB237 /* Tests macOS.xctest */;
+			productReference = C4ECBA8727328159002FB237 /* Tests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -258,7 +175,7 @@
 				Base,
 			);
 			mainGroup = C4ECBA3727327C86002FB237;
-			productRefGroup = C4ECBA4527327C91002FB237 /* Products */;
+			productRefGroup = C4ECBA3727327C86002FB237;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -275,7 +192,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4ECBA6A27327C92002FB237 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +199,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4ECBA6B27327C92002FB237 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +223,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4ECBA6827327C92002FB237 /* ContentView.swift in Sources */,
-				C4ECBA6627327C92002FB237 /* QRScannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +230,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4ECBA6927327C92002FB237 /* ContentView.swift in Sources */,
-				C4ECBA6727327C92002FB237 /* QRScannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +237,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4ECBA5927327C92002FB237 /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +244,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4ECBA6427327C92002FB237 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,7 +470,6 @@
 		C4ECBA7527327C92002FB237 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3V2683BM8T;
 				INFOPLIST_FILE = "Tests iOS/Info.plist";
@@ -583,7 +491,6 @@
 		C4ECBA7627327C92002FB237 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3V2683BM8T;
 				INFOPLIST_FILE = "Tests iOS/Info.plist";
@@ -606,7 +513,6 @@
 		C4ECBA7827327C92002FB237 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3V2683BM8T;
@@ -628,7 +534,6 @@
 		C4ECBA7927327C92002FB237 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3V2683BM8T;
