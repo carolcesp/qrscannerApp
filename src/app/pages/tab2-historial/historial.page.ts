@@ -12,12 +12,10 @@ export class HistorialPage {
   constructor( public dataLocal: DataLocalService ) {}
 
   sendEmail() {
-    console.log('Enviando email');
-
+    this.dataLocal.sendEmail();
   }
 
   openRegister(registro: Registro) {
-    console.log('Detalle registro:',registro);
     this.dataLocal.openRegister(registro)
   }
 
